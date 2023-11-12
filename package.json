@@ -1,0 +1,18 @@
+{
+  "name": "golestan",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "golscss":"node-sass -w scss/main.scss -o css/ -r"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
