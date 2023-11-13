@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "golscss":"node-sass -w scss/main.scss -o css/ -r"
+    "golscss":"node-sass -w scss/main.scss -o css/ -r",
+    "mobile":"node-sass -w scss/mobile/mobile.scss -o css/mobile -r"
   },
   "devDependencies": {
     "vite": "^4.4.5"
